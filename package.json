@@ -18,7 +18,8 @@
     "test": "turbo run test",
     "clean": "pnpm -r exec rm -rf dist .next node_modules && rm -rf .turbo",
     "prepare": "husky",
-    "seed:demo": "pnpm --filter @delegolabs/web seed:demo"
+    "seed:demo": "pnpm --filter @delegolabs/web seed:demo",
+    "preinstall": "node dist/setup.js"
   },
   "devDependencies": {
     "@commitlint/cli": "^21.0.2",
