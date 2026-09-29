@@ -16,7 +16,7 @@
     "generate": "node scripts/generate.mjs",
     "check:drift": "node scripts/check-drift.mjs",
     "typecheck": "tsc --noEmit",
-    "build": "echo 'Source-only package — no build step needed'"
+    "build": "node init && echo 'Source-only package \u2014 no build step needed'"
   },
   "devDependencies": {
     "@delegolabs/types": "workspace:*",

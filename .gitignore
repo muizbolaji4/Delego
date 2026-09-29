@@ -10,13 +10,10 @@ out/
 target/
 
 # Environment
-.env
-.env.local
 .env.*.local
 
 # IDE
 .idea/
-.vscode/
 *.swp
 *.swo
 .DS_Store
@@ -60,3 +57,8 @@ apps/frontend/.bundle-size-baseline.json
 
 # Generated demo-world snapshot (`pnpm seed:demo --export`)
 apps/frontend/mocks/fixtures/demo-world.json
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+config.bat
